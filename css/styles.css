@@ -309,12 +309,15 @@ template {
   width: 75%; }
 
 /********** HEADER **********/
+#menu {
+  position: fixed; }
+
 #logo {
-  margin-left: 42px;
-  margin-top: 53px; }
+  margin-left: 12.0625%;
+  margin-top: 4.76%; }
 
 #menu-header {
-  margin-right: 0%;
+  margin-right: 13%;
   margin-top: 5.45%; }
 
 .background {
@@ -339,6 +342,9 @@ li > a {
   color: #eae5ed; }
 
 /********** SLIDER **********/
+#header {
+  padding-top: 15%; }
+
 h2 {
   color: #eae5ed;
   font-size: 3.3em; }
