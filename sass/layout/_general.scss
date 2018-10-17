@@ -1,0 +1,58 @@
+/********** WRAPPER **********/
+#wrapper {
+    width: 75%;
+}
+
+
+/********** HEADER **********/
+#logo {
+    margin-left: 42px;
+    margin-top: 53px;
+}
+#menu-header {
+    margin-right: 0%;
+    margin-top: 5.45%;
+}
+
+.background {
+    background-color: #87509c;
+}
+.width {
+    width: 76.38%;
+    margin: 0 auto;
+}
+ul.menu {
+    float: right;
+}
+
+ul>li{
+    text-decoration: none;
+    padding: 17px 12px;
+    display: inline-block;
+    &hover{
+        background-color: #643a79;
+    }
+}
+li>a {
+    text-decoration: none;
+    color: #eae5ed;
+}
+
+/********** SLIDER **********/
+
+h2 {
+    color: #eae5ed;
+    font-size: 3.3em;
+}
+
+#btn-header {
+    padding: 2.4% 7.3%; 
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+    background-color: #eb7d4b; 
+}
+#slider{
+    text-align: center;
+    padding-bottom: 11.1818%;
+} 
