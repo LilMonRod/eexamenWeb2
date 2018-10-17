@@ -306,7 +306,7 @@ template {
 
 @media (max-width: 992px) {
   html {
-    font-size: 20px !important; }
+    font-size: 20em !important; }
 
   .menu li + li {
     margin-left: 40px; }
@@ -331,7 +331,7 @@ template {
     width: auto;
     float: none;
     margin-left: 0;
-    font-size: 19px; }
+    font-size: 19em; }
     .box + .box {
       margin-top: 30px; }
 
@@ -362,7 +362,7 @@ template {
     margin: 20px auto 0; } }
 @media (max-width: 576px) {
   html {
-    font-size: 22px !important; }
+    font-size: 22em !important; }
 
   .portfolio-img {
     width: 96%; } }
