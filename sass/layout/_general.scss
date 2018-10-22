@@ -32,32 +32,44 @@ ul>li{
     text-decoration: none;
     padding: 17px 12px;
     display: inline-block;
-    &hover{
-        background-color: #643a79;
-    }
 }
 li>a {
     text-decoration: none;
     color: #eae5ed;
 }
-
+li>a:hover{
+    background-color: #390c50;
+}
 /********** SLIDER **********/
 #header{
     padding-top: 15%;
 }
 h2 {
-    color: #eae5ed;
     font-size: 3.3em;
+    font-family: $fontfamily;
+}
+.colorhead{
+    color: #eae5ed;    
 }
 
 #btn-header {
     padding: 2.4% 7.3%; 
     text-decoration: none;
+    font-family: $fontfamily;
     color: white;
     font-size: 1.4em;
-    background-color: #eb7d4b; 
+    background-color: #eb7d4b;
 }
 #slider{
     text-align: center;
     padding-bottom: 11.1818%;
 } 
+/******************************/
+/********** SERVICES **********/
+
+.background-services {
+    background-color: #17c2a4;
+} 
+.color-services {
+    color: white;
+}
