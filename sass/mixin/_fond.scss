@@ -1,0 +1,14 @@
+/* 
+@mixin transform($property) {
+  -webkit-transform: $property;
+      -ms-transform: $property;
+          transform: $property;
+}
+
+.box { @include head-font; } */
+
+@mixin head-font {
+    font: {
+      family: $fontfamily;
+    }
+}

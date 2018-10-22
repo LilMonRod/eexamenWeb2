@@ -17,7 +17,7 @@
     margin-top: 5.45%;
 }
 
-.background {
+.background-header {
     background-color: #87509c;
 }
 .width {
@@ -38,7 +38,7 @@ li>a {
     color: #eae5ed;
 }
 li>a:hover{
-    background-color: #390c50;
+    background-color: #643a79;
 }
 /********** SLIDER **********/
 #header{
@@ -46,16 +46,16 @@ li>a:hover{
 }
 h2 {
     font-size: 3.3em;
-    font-family: $fontfamily;
+    @include head-font;
 }
-.colorhead{
+.color-head{
     color: #eae5ed;    
 }
 
 #btn-header {
     padding: 2.4% 7.3%; 
     text-decoration: none;
-    font-family: $fontfamily;
+    @include head-font;
     color: white;
     font-size: 1.4em;
     background-color: #eb7d4b;
@@ -66,10 +66,53 @@ h2 {
 } 
 /******************************/
 /********** SERVICES **********/
-
+#wraper-services {
+    padding-top: 9.5%;
+}
 .background-services {
     background-color: #17c2a4;
 } 
-.color-services {
+#content-services>h3 {
+    font-size: 3em;
+    @include head-font;
+    margin-top: 0;
+    font-weight: 100;
     color: white;
+}
+h3::after {
+    content: "";
+    background-color: black;
+    opacity: 0.13;
+    width: 9.223%;
+    height: 5px;
+    display: block;
+    margin: 0 auto;
+}
+#content-services>p {
+    @include head-font;
+    font-size: 1.75em;
+    color: white;    
+}
+.box-width {
+    width: 24%;
+}
+.box+.box {
+    margin-right: 1%;
+}
+.box {
+    float: left;
+}
+.box>p {
+    @include head-font;
+    font-size: 1em;
+    color: white;
+}
+.box>h4 {
+    @include head-font;
+    font-size: 1.75em;
+    text-transform: uppercase;
+    color: white;
+}
+.box>img {
+    margin-left: 20%;
 }
