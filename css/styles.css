@@ -356,7 +356,7 @@ li > a:hover {
 
 h2 {
   font-size: 3.3em;
-  text-align: center; }
+  font-family: Myriad Pro; }
 
 .color-head {
   color: #eae5ed; }
@@ -364,7 +364,7 @@ h2 {
 #btn-header {
   padding: 2.4% 7.3%;
   text-decoration: none;
-  text-align: center;
+  font-family: Myriad Pro;
   color: white;
   font-size: 1.4em;
   background-color: #eb7d4b; }
@@ -383,9 +383,10 @@ h2 {
 
 #content-services > h3 {
   font-size: 3em;
-  text-align: center;
-  margin-top: 0;
+  text-transform: uppercase;
   font-weight: 100;
+  font-family: Myriad Pro;
+  margin-top: 0;
   color: white; }
 
 h3::after {
@@ -398,7 +399,7 @@ h3::after {
   margin: 0 auto; }
 
 #content-services > p {
-  text-align: center;
+  font-family: Myriad Pro;
   font-size: 1.75em;
   color: white; }
 
@@ -412,18 +413,84 @@ h3::after {
   float: left; }
 
 .box > p {
-  text-align: center;
+  font-family: Myriad Pro;
   font-size: 1em;
   color: white; }
 
 .box > h4 {
-  text-align: center;
+  font-family: Myriad Pro;
   font-size: 1.75em;
   text-transform: uppercase;
   color: white; }
 
 .box > img {
   margin-left: 20%; }
+
+/******************************/
+/************ TOUCH ***********/
+.background-touch {
+  background-color: #3c5499; }
+
+#wraper-touch {
+  padding-top: 9.5%; }
+
+#content-touch > h3 {
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-family: Myriad Pro;
+  margin-top: 0;
+  color: white; }
+
+#content-touch > p {
+  font-family: Myriad Pro;
+  font-size: 1.75em;
+  font-weight: 100;
+  color: white; }
+
+label {
+  font-family: Myriad Pro;
+  font-size: 1.5em;
+  color: white; }
+
+.box-inpt {
+  width: 99%;
+  border: none;
+  border-radius: 6px;
+  background-color: #273a71;
+  height: 2.6vw; }
+
+.box-form {
+  width: 49%;
+  float: left; }
+
+.box-form + .box-form {
+  margin-left: 2%; }
+
+.box-inpt-textarea {
+  width: 99%;
+  border: none;
+  border-radius: 6px;
+  background-color: #273a71;
+  height: 10.6vw; }
+
+#textarea {
+  margin-top: 2vw; }
+
+#btn-send {
+  font-family: Myriad Pro;
+  font-size: 1.5em;
+  width: 99%;
+  height: 3vw;
+  border: none;
+  border-bottom: solid 4px #299ec5;
+  border-radius: 6px;
+  background-color: #30bae7;
+  color: white; }
+
+.btn-container {
+  padding: 3vw 0 4.5vw 0;
+  margin: 0 auto; }
 
 @media (max-width: 992px) {
   html {

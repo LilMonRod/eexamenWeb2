@@ -74,9 +74,10 @@ h2 {
 } 
 #content-services>h3 {
     font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 100;    
     @include head-font;
     margin-top: 0;
-    font-weight: 100;
     color: white;
 }
 h3::after {
@@ -116,3 +117,65 @@ h3::after {
 .box>img {
     margin-left: 20%;
 }
+
+/******************************/
+/************ TOUCH ***********/
+.background-touch {
+    background-color: #3c5499;
+}
+#wraper-touch {
+    padding-top: 9.5%;
+}
+#content-touch>h3 {
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 100;    
+    @include head-font;
+    margin-top: 0;
+    color: white;
+}
+#content-touch>p {
+    @include head-font;
+    font-size: 1.75em;
+    font-weight: 100; 
+    color: white;    
+}
+label {
+    @include head-font;
+    font-size: 1.5em;
+    color: white;  
+}
+.box-inpt {
+    @include style-inpt;
+    height: 2.6vw;
+}
+.box-form {
+    width: 49%;
+    float: left;
+}
+.box-form+.box-form {
+    margin-left: 2%;
+}
+.box-inpt-textarea {
+    @include style-inpt;
+    height: 10.6vw;
+}
+#textarea {
+    margin-top: 2vw;
+}
+#btn-send {
+    @include head-font;
+    font-size: 1.5em;
+    width: 99%;
+    height: 3vw;
+    border: none;
+    border-bottom: solid 4px #299ec5;
+    border-radius: 6px;
+    background-color: #30bae7;
+    color: white
+}
+.btn-container {
+    padding: 3vw 0 4.5vw 0;
+    margin: 0 auto;
+}
+
