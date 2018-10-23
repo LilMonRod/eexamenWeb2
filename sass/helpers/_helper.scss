@@ -7,3 +7,11 @@
     content: "";
     clear: both;
 }
+label::after {
+    content: " *";
+    color: #cb485b;
+    clear: both;
+}
+.box + .box {
+    margin-left: 3vw;
+}

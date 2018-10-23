@@ -1,0 +1,56 @@
+/******************************/
+/********** SERVICES **********/
+#wraper-services {
+    padding-top: 7vw;
+    padding-bottom: 6.5vw;
+}
+
+.background-services {
+    background-color: #17c2a4;
+} 
+#content-services>h3 {
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;    
+    @include head-font;
+    margin-top: 0;
+    color: white;
+}
+h3::after {
+    content: "";
+    background-color: black;
+    opacity: 0.13;
+    width: 9.223%;
+    height: 5px;
+    display: block;
+    margin: 0 auto;
+}
+#content-services>p {
+    @include head-font;
+    font-size: 1.75em;
+    color: white;    
+}
+.box-width {
+    width: 23%;
+}
+.box+.box {
+    margin-left: 1vw;
+}
+.box {
+    float: left;
+}
+.box>p {
+    @include head-font;
+    font-size: 1em;
+    color: white;
+}
+.box>h4 {
+    @include head-font;
+    font-size: 1.75em;
+    text-transform: uppercase;
+    color: white;
+}
+.box>img {
+    margin-left: 20%;
+}

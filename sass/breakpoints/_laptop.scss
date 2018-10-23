@@ -1,24 +1,23 @@
-@media (max-width: $breakpoint-lg){
+@media (max-width: $breakpoint-xl){
 	// 
 	// General
 	// 
-	html{
-		font-size: 16em + 4 !important;
+	img.max-width {
+		max-width: 80%;
+	}
+	.box-width {
+		width: 42%;
+		margin-top: 5vw;
 	}
 
-	.menu li + li {
-    	margin-left: 40px;
+	.menu-footer {
+		font-size: 1em;
 	}
-
-	// 
-	// Portfolio
-	// 
-	.portfolio-img {
-		width:21%; //4
-		padding: 2%;
-	}
-
-	.portfolio-img + .portfolio-img {
-		margin-left: 0;
+	
+	#btn-send {
+		font-size: 1.7em;
+		width: 95%; 
+		height: 3vw;
+		padding: 4vw 2vw;
 	}
 }

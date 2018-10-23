@@ -5,11 +5,11 @@
 	html{
 		font-size: 16em + 6 !important;
 	}
-
-	//
-	// Portfolio
-	// 
-	.portfolio-img {
-		width:96%; // 2
+	#menu-header {
+		display: none;
+	}
+	.box-width {
+		width: 100%;
+		margin-top: 5vw;
 	}
 }

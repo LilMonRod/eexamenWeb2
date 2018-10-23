@@ -1,0 +1,65 @@
+
+/****************************/
+/********** HEADER **********/
+#menu {
+    position: fixed;
+    width: 75%;
+    background-color: #87509c;
+}
+#logo {
+    margin-left: 12.0625%;
+    margin-top: 4.76%;
+}
+#menu-header {
+    margin-right: 13%;
+    margin-top: 5.45%;
+}
+
+.background-header {
+    background-color: #87509c;
+}
+.width {
+    width: 76.38%;
+    margin: 0 auto;
+}
+ul.menu {
+    float: right;
+}
+
+ul>li{
+    text-decoration: none;
+    padding: 20px 15px;
+    display: inline-block;
+}
+li>a {
+    text-decoration: none;
+    color: #eae5ed;
+}
+li>a:hover{
+    background-color: #643a79;
+}
+/*****************************/
+/********** SLIDER ***********/
+#header{
+    padding-top: 15%;
+}
+h2 {
+    font-size: 3.3em;
+    @include head-font;
+}
+.color-head{
+    color: #eae5ed;    
+}
+
+#btn-header {
+    padding: 2.4% 7.3%; 
+    text-decoration: none;
+    @include head-font;
+    color: white;
+    font-size: 1.4em;
+    background-color: #eb7d4b;
+}
+#slider{
+    text-align: center;
+    padding-bottom: 11.1818%;
+} 
