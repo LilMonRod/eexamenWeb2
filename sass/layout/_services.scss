@@ -39,6 +39,7 @@ h3::after {
 }
 .box {
     float: left;
+    text-align: center;
 }
 .box>p {
     @include head-font;

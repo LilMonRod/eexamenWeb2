@@ -11,14 +11,17 @@
     <div id="wrapper-header" class="background-header">
       <!-- menu and logo-->
       <div id="menu" class="menu-header">
-        <img src="img/Cuda Single Page Portfolio.png" alt="Logo Cuda" id="logo">
-        <ul id="menu-header" class="menu">
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">WORK</a></li>
-          <li><a href="#">BLOG</a></li>
-          <li><a href="#">CONTACT</a></li>
-        </ul>
+        <div class="width">
+          <img src="img/Cuda Single Page Portfolio.png" alt="Logo Cuda" id="logo">
+          <img src="img/menu/noun_menu.png" alt="menu" id="menuMovil" class="menu">
+          <ul id="menu-header" class="menu">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">WORK</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
       </div>
 
       <div id="header" class="slider width">
@@ -37,7 +40,7 @@
         <p>We are working with both individuals and businesses from all over the globe 
             to create awesome websites and applications.</p>
         <div>
-          <div class="clearfix">
+          <div class="clearfix align-movil">
             <div class="box box-width">
               <img class="max-width" src="img/img-Services/flag.png" alt="flag icon">
               <h4>Branding</h4>
@@ -77,16 +80,16 @@
       <form id="formulario" >
         <div class="clearfix">
           <div class="box-form">
-            <label for="name">Your name</label>
+            <label class="label-inpt" for="name">Your name</label>
             <input class="box-inpt" type="text" id="name"/>
           </div>
           <div class="box-form">
-            <label for="mail">Your email</label>
+            <label class="label-inpt" for="mail">Your email</label>
             <input class="box-inpt" type="text" id="mail"/>
           </div>
         </div>
         <div id="textarea">
-          <label class="inpt" for="message">Your Message</label>
+          <label class="label-inpt inpt" for="message">Your Message</label>
           <input class="box-inpt-textarea" type="text" id="message"/>
         </div>
         <div class="btn-container box-width">

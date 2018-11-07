@@ -3,7 +3,13 @@ html {
 }
 /********** WRAPPER **********/
 #wrapper {
-    width: 75%;
+    width: 100%;
+}
+#menuMovil {    
+    max-width: 28px;
+    float: right;
+    margin-top: 5vw;
+    margin-right: 2vw;
 }
 @import 'header';
 @import 'services';

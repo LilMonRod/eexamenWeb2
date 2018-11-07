@@ -2,18 +2,16 @@
 	// 
 	// General
 	// 
+	.width {
+		max-width: 992px;
+	}
 	img.max-width {
 		max-width: 80%;
 	}
 	.box-width {
-		width: 42%;
+		max-width: 322px;
 		margin-top: 5vw;
 	}
-
-	.menu-footer {
-		font-size: 1em;
-	}
-	
 	#btn-send {
 		font-size: 1.7em;
 		width: 95%; 

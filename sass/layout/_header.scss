@@ -3,8 +3,12 @@
 /********** HEADER **********/
 #menu {
     position: fixed;
-    width: 75%;
+    width: 100%;
     background-color: #87509c;
+    z-index: 1;
+}
+#menuMovil {
+    display: none;
 }
 #logo {
     margin-left: 12.0625%;
@@ -19,7 +23,7 @@
     background-color: #87509c;
 }
 .width {
-    width: 76.38%;
+    max-width: 1240px;
     margin: 0 auto;
 }
 ul.menu {

@@ -1,2 +1,32 @@
 @media (max-width: $breakpoint-lg){
+    .width {
+		max-width: 768px;
+    }
+    #menu-header {
+		display: none;
+	}
+	#menuMovil {
+		display: inline;
+	}
+	#menuMovil:hover {
+		#menu-header {
+			display: none;
+		}
+	}
+    .box+.box {
+        margin-left: 0;
+    }
+    .box-width {
+        width: 39%;
+        margin-top: 5vw;
+    }
+    .box+.box {
+		margin-left: 0;
+    }
+    .box:nth-child(2n){
+        float: right;
+    }
+    .box:nth-child(2n+1){
+        float: left;
+    }
 }
